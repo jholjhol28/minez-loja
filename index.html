@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>MineZ - Loja VIP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d0d0d url('https://i.ibb.co/mc5B3N9/zombie-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #e0e0e0;
+      margin: 0;
+      text-align: center;
+    }
+    header {
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.85);
+      border-bottom: 3px solid #ff0000;
+    }
+    h1 {
+      color: #39ff14;
+      font-size: 40px;
+      text-shadow: 0 0 15px #39ff14;
+    }
+    .vip-card {
+      background: rgba(0,0,0,0.85);
+      border: 2px solid #39ff14;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px;
+      display: inline-block;
+      width: 300px;
+      box-shadow: 0 0 20px #000;
+      transition: transform 0.2s;
+    }
+    .vip-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #ff0000;
+    }
+    .vip-card h2 {
+      color: #ff0000;
+      text-shadow: 0 0 10px #ff0000;
+    }
+    .price {
+      font-size: 22px;
+      color: #39ff14;
+      margin: 10px 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+    }
+    li { margin: 5px 0; }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #39ff14;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #ff0000;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧟 Loja VIP - MineZ</h1>
+  </header>
+
+  <div class="vip-card">
+    <h2>🔹 Assassino</h2>
+    <div class="price">R$ 20</div>
+    <ul>
+      <li>🗄️ 3 Vaults</li>
+      <li>🧰 3 Hotbars extras</li>
+      <li>💸 Descontos: Armas 15%, Munição 20%, Equip. 15%, Melhoria 25%</li>
+      <li>💎 Bônus venda: +20% em tudo</li>
+    </ul>
+    <a href="#" class="btn">Comprar</a>
+  </div>
+
+  <div class="vip-card">
+    <h2>🔹 Predador</h2>
+    <div class="price">R$ 40</div>
+    <ul>
+      <li>🗄️ 4 Vaults</li>
+      <li>🧰 4 Hotbars extras</li>
+      <li>💸 Descontos: Armas 20%, Munição 30%, Equip. 20%, Melhoria 30%</li>
+      <li>💎 Bônus venda: +25% em tudo</li>
+      <li>🪄 Comando extra: /ec</li>
+    </ul>
+    <a href="#" class="btn">Comprar</a>
+  </div>
+
+  <div class="vip-card">
+    <h2>🔹 Mercenário</h2>
+    <div class="price">R$ 60</div>
+    <ul>
+      <li>🗄️ 5 Vaults</li>
+      <li>🧰 5 Hotbars extras</li>
+      <li>💸 Descontos: Armas 25%, Munição 35%, Equip. 25%, Melhoria 35%</li>
+      <li>💎 Bônus venda: +30% em tudo</li>
+      <li>🪄 Comandos extras: /ec, /fix, /craft</li>
+    </ul>
+    <a href="#" class="btn">Comprar</a>
+  </div>
+</body>
+</html>
