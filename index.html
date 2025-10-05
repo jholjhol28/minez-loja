@@ -22,7 +22,7 @@
 
     h1 {
       color: #00ff00;
-      font-size: 28px;
+      font-size: 26px;
     }
 
     .vip-container {
@@ -36,52 +36,57 @@
     .vip-card {
       background: rgba(0, 0, 0, 0.85);
       border: 2px solid #00ff00;
-      border-radius: 10px;
+      border-radius: 12px;
       padding: 20px;
-      width: 250px;
-      box-shadow: 0 0 15px #00ff00;
+      width: 280px;
+      box-shadow: 0 0 20px #000;
+      transition: transform 0.2s;
     }
 
-    .vip-card h2 {
-      color: red;
+    .vip-card:hover {
+      transform: scale(1.05);
+      background: rgba(0, 50, 0, 0.9);
     }
 
-    .vip-card button {
+    button {
       background: #00ff00;
       border: none;
+      color: black;
       padding: 10px 20px;
+      margin-top: 10px;
       font-weight: bold;
-      border-radius: 5px;
+      border-radius: 6px;
       cursor: pointer;
+      transition: 0.3s;
     }
 
-    .vip-card button:hover {
-      background: #00cc00;
+    button:hover {
+      background: #0c0;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>💚 Loja VIP - MineZ</h1>
+    <h1>💎 Loja VIP - MineZ</h1>
   </header>
 
   <div class="vip-container">
     <div class="vip-card">
-      <h2>🔹 Assassino</h2>
+      <h2>🔪 Assassino</h2>
       <p>💰 R$20</p>
       <p>3 Vaults<br>3 Hotbars extras<br>Descontos: Armas 15%, Munição 20%, Equip. 15%, Melhoria 25%<br>Bônus venda: +20%</p>
       <button>Comprar</button>
     </div>
 
     <div class="vip-card">
-      <h2>🔹 Predador</h2>
+      <h2>🦅 Predador</h2>
       <p>💰 R$40</p>
       <p>4 Vaults<br>4 Hotbars extras<br>Descontos: Armas 20%, Munição 30%, Equip. 20%, Melhoria 30%<br>Bônus venda: +25%<br>Comando extra: /ec</p>
       <button>Comprar</button>
     </div>
 
     <div class="vip-card">
-      <h2>🔹 Mercenário</h2>
+      <h2>⚔️ Mercenário</h2>
       <p>💰 R$60</p>
       <p>5 Vaults<br>5 Hotbars extras<br>Descontos: Armas 25%, Munição 35%, Equip. 25%, Melhoria 35%<br>Bônus venda: +30%<br>Comandos extras: /ec, /fix, /craft</p>
       <button>Comprar</button>
